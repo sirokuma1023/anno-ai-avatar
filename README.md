@@ -28,7 +28,8 @@
 
 * PDF画像化のためにpopplerをインストール
 
-    * Windowsの場合、以下のリンクのReleaseからzipをダウンロード： https://github.com/oschwartz10612/poppler-windows
+    * Windowsの場合、以下のリンクのにあるDownloadのReleaseという文字のリンクをクリック。リンク先でzipをダウンロード： https://github.com/oschwartz10612/poppler-windows
+        * リンク先のgitをクローンするわけではないので注意
         * ダウンロードしたZIPファイルを解凍し、任意の場所に配置します（例：C:\poppler-0.68.0）。
         * 解凍したフォルダのパスをシステムのPATH環境変数に追加します。
         * Windowsの検索バーで「環境変数」と入力し、「システム環境変数の編集」を選択します。
@@ -72,7 +73,7 @@
         * アプリ画面下部は画面外にして映さない想定です。
 
 * Unityの操作
-    * 初めの場合は、Asset/Scenes/SampleScene.unityをクリック。配信のためのシーンを読みだす。
+    * 初めの場合は、aituber_3D/Asset/Scenes/SampleScene.unityをクリック。配信のためのシーンを読みだす。
     * もしConsole画面にVRMモデルのインポートに関するエラーが出ていたら、Unityにパッケージをインストールする必要があります。(https://www.ay3s-room.com/entry/unity-vrm-import-export).Universal RPやUniVRMなど。
     * Unity上でプレイボタンをクリック。
         * GameタブにてアバターがidleモーションをしていればOK。
